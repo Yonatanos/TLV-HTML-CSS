@@ -1,0 +1,275 @@
+@import url(http://fonts.googleapis.com/earlyaccess/alefhebrew.css);
+
+body {
+	font-family: "Alef Hebrew" ,"Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 1em;
+	line-height: 1.3em;
+	letter-spacing: 0;
+	background-color: seashell;
+}
+
+.banner {
+	width: 1843px;
+	height: 90px;
+	display: block;
+	margin-right: 10px;
+	margin-bottom: 5px;
+}
+
+div#banner {
+	position: fixed;
+	top: 0;
+	z-index: 2;
+	margin-right: -10px;
+}
+ div#invisible-banner {
+	position: static;
+	margin-top: -26px;
+	margin-right: -10px;
+}
+
+div#title {
+	position: fixed;
+	margin-right: 95px;
+	margin-top: 15px;
+	font-size: 2em;
+	color: black;
+	font-weight: bold;
+	z-index: 3;
+}
+
+div#navbar {
+	position: fixed;
+	clear: both;
+	width: 100%;
+	background-color: seashell;
+}
+
+div#invisible-navbar {
+	position: static;
+	clear: both;
+	width: 100%;
+	margin-top: -70px;
+}
+
+div#invisible-banner, div#invisible-title, div#invisible-navbar {
+	visibility: hidden;
+}
+
+#navbar ul {
+	list-style-type: none;
+	padding-right: 0;
+}
+
+#navbar ul li {
+	Margin:0 0 0 .3%;
+	float: right;
+	width: 24.6%;
+	display: inline;
+}
+
+#navbar ul li a {
+	text-decoration: none;
+	font-size: 1em;
+	color: white;
+	display: block;
+	padding:.4em .5em;
+	margin-bottom: 5px;
+}
+
+#navbar ul li a.interact {
+		background-color: #444746;
+}
+
+#navbar ul li a.interact:hover {
+		background-color: #444746;
+		text-decoration: underline;
+		font-weight: bold;
+}
+#navbar ul li a.interact:active {
+		background-color: #1576d1;
+		text-decoration: underline;
+		font-weight: bold;
+
+}
+div#main {
+	width: 70%;
+	float: right;
+}
+
+div#main iframe { /*Tel Aviv Tour Youtube*/
+	float: right;
+	margin: 30px 0 20px 20px;
+}
+
+div#main img#imgmap { /* Avi Katz beautiful painting of Tel Aviv Map*/
+	display:block;
+	clear: both;
+	margin: 30px auto 20px auto;
+}
+
+#credit {
+	text-align: center;
+}
+
+div#links {
+	left: 10px;
+	width: 24.7%;
+	float: left;
+}
+
+div#links #first-link {
+	margin-top: 35px;
+}
+
+div#links h2 {
+	margin-bottom: 10px;
+}
+
+div#links hr{
+	border-color: #f7d4ee;
+}
+
+footer#footer {
+	position: fixed;
+	width: 100%;
+	clear: both;
+	bottom: 0;
+	right: 0;
+}
+
+footer#footer ul {
+	list-style-type: none;
+	padding-right: 0;
+}
+
+footer#footer ul li {
+	float: right;
+	width: 24.9%;
+	border-left: 1px solid seashell;
+	display: inline;
+}
+
+footer#footer ul li a {
+	display: block;
+	background-color: #6b727c;
+	color: white;
+	text-decoration: none;
+	padding: 0 .5em;
+}
+
+footer#footer ul li a:hover {
+	font-weight: bold;
+}
+
+.s-letters {
+	font-size: .7em;
+	font-weight: 400;
+}
+
+table {
+	width: 50%;
+	margin: 40px auto 5% auto;
+	border: 1px solid black;
+	text-align: right;
+}
+
+th {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+th.unique-row {
+	border-top: none;
+}
+
+.photo-gallery {
+	float: left;
+	margin: 7px 10px 4px 10px;
+}
+
+form {
+	margin: 30px auto auto auto;
+	width: 30%;
+}
+
+form legend {
+	font-size: 1.1em;
+}
+
+form p {
+	display: inline;
+	margin-right: 10px;
+}
+
+form textarea, form input {
+	background-color: #F3D3AB;
+	border: 1px solid #C58B23;
+	margin-right: 20px;
+}
+
+form textarea {
+	display: block;
+}
+
+form input[type="submit"] {
+	margin-right: 180px;
+	display: block;
+}
+#textAreaBottom {
+	margin-top: -10px;
+	margin-right: 20px;
+	width: 258px;
+	background-color: #8B5A38;
+	color: white;
+	font-size: .8em;
+}
+
+@media (max-width: 990px) {
+	footer#footer ul li {
+		float: right;
+		width: 49.4%;
+		border-left: 1px solid seashell;
+		display: inline;
+		margin-top: 1px;
+	}
+
+	.banner {
+		width: 100%;
+		height: 90px;
+		display: block;
+		margin-right: 10px;
+		margin-bottom: 5px;
+	}
+}
+
+@media (max-width: 775px) {
+	h1#title {
+		display: none;
+	}
+
+	div#main iframe { /*Tel Aviv Tour Youtube*/
+		width: 100%;
+		margin: 30px 0 20px 20px;
+	}
+
+}
+
+@media (max-width: 556px) {
+	#navbar ul li {
+		Margin:0 1 0 .3%;
+		float: right;
+		width: 49.4%;
+		display: inline;
+	}
+}
+
+@media (max-height: 500px) {
+	h1#title {
+		display: none;
+	}
+
+	.banner {
+		height: 0px;
+	}
+}

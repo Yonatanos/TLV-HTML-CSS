@@ -1,0 +1,238 @@
+<!DOCTYPE HTML>
+<html lang=("en", "he")>
+	<head>
+	<meta charset="UTF-8">
+	<title>Tel Aviv City Unofficial Website - Contact Us</title>
+	<meta name="description" content="The place to leave your comments for the website programer">
+	<link rel="stylesheet" type="text/css" href="css/TelAviv.css">
+	</head>
+	<body dir="rtl">
+		<div id="banner">
+			<img src="images/banner2.jpg" alt="Tel Aviv Banner" width="1920" height: "90">	
+		</div>
+		<div id="title">  <!--Title that overides the banner and seems as implemented in it-->
+			<h1>העיר תל אביב</h1>
+		</div>
+	<div id="invisible-banner"> <!-- Invisible spacer where the banner is-->
+			<img src="images/banner2.jpg" alt="Tel Aviv Banner" width="1920" height: "90">	
+		</div>
+		<div id="navbar"> <!--Navigation bar-->
+			<ul>
+				<li><a class="interact" href="index.html">בית</a></li>
+				<li><a class="interact" href="statistics.html">נתונים סטטיסטיים</a></li>
+				<li><a class="interact" href="gallery.html">תמונות</a></li>
+				<li><a class="interact" href="TAmap.html">מפה</a></li>
+			</ul>
+		</div>
+=		<div id="invisible-navbar"> <!--invisible spacer where the navigation bar is-->
+			<ul>
+				<li><a class="interact" href="Tel Aviv City.html">בית</a></li>
+				<li><a class="interact" href="statistics.html">נתונים סטטיסטיים</a></li>
+				<li><a class="interact" href="photos.html">תמונות</a></li>
+				<li><a class="interact" href="TAmap.html">מפה</a></li>
+			</ul>		
+		</div> 
+		<form action="#".php method="post">
+			<fieldset>
+				<legend>צור קשר</legend>
+				<div id="form-content">
+					<p>שם מלא:<p><input type="text" name="fullName" size="25">
+					<br>
+					<p>סיבה ליצירת קשר: </p>
+					<label><input type="radio" name="contactType" value="שאלה" checked="checked">שאלה</label>
+					<label><input type="radio" name="contactType" value="תלונה">תלונה</label>
+					<br><br>
+					<p>מלל חופשי: </p>
+					<br>
+					<textarea type="text" rows="6" cols="33"></textarea>
+					<p id="textAreaBottom">  שים לב זהו דף דמה !</p>
+					<input type="submit" value="שלח">
+				</div> <!-- of form-content ID-->
+			</fieldset>		
+		</form>
+<!--		<div id="main"> 
+			<h1>נתונים סטטיסטיים (מתוך אתר עיריית תל אביב)</h1>
+			<h2>מבנה דמוגרפי ומשקי בית - 2014</h2>
+			<table>
+				<tr>
+					<th class="unique-row" scope="col"> אוכלוסייה</th>
+					<th class="unique-row" scope="col" >426,140</th>	
+				</tr>
+				<tr>
+					<td>% גידול בהשוואה לשנת 2013</td>
+					<td>1.0%</td>
+				</tr>	
+				<tr>
+					<td>% מאוכלוסיית ישראל</td>
+					<td>5.2%</td>
+				</tr>
+				<tr>
+					<td>% יהודים</td>
+					<td>91.0%</td>
+				</tr>
+				<tr>
+					<td>% לא יהודים</td>
+					<td>9.0%</td>
+				</tr>
+				<tr>
+					<td>% נשים</td>
+					<td>50.6%</td>
+				</tr>
+				<tr>
+					<th scope="col">גיל חציוני תל-אביב-יפו</th>
+					<th scope="col">35.4</th>	
+				</tr>
+				<tr>
+					<td>ישראל</td>
+					<td>29.7</td>
+				</tr>	
+				<tr>
+					<th scope="col">ריבוי טבעי<span class="s-letters" (נולדים פחות נפטרים)</span></th>
+					<th scope="col">5,160</th>	
+				</tr>
+				<tr>
+					<td>נולדים</td>
+					<td>8,570</td>
+				</tr>	
+				<tr>
+					<td>נפטרים</td>
+					<td>3,410</td>
+				</tr>
+				<tr>
+					<th scope="col">עולי 1990</th>
+					<th scope="col">56,910</th>	
+				</tr>
+				<tr>
+					<td>% מאוכלוסיית העיר</td>
+					<td>13.4%</td>
+				</tr>	
+				<tr>
+					<th scope="col">מספר משקי בית <span class="s-letters">(לפי סקר כח אדם של הלמ"ס)</span></th>
+					<th scope="col">186,800</th>	
+				</tr>
+				<tr>
+					<td>מזה: % משקי בית עם ילדים עד גיל 18</td>
+					<td>24.9%</td>
+				</tr>	
+				<tr>
+					<td>מזה: % משקי בית עם בני 65+</td>
+					<td>24.5%</td>
+				</tr>
+				<tr>
+					<td>מזה: משקי בית משפחתיים</td>
+					<td>58.4%</td>
+				</tr>
+				<tr>
+					<td>מזה: משקי בית שבהם הורה יחיד בלבד</td>
+					<td>7.7%</td>
+				</tr>
+				<tr>
+					<th scope="col">ממוצע נפשות למשק בית בתל-אביב-יפו</th>
+					<th scope="col">2.3</th>	
+				</tr>
+				<tr>
+					<td>בישראל</td>
+					<td>3.3</td>
+				</tr>
+			</table>
+			<h2>תרבות ופנאי - 2015</h2>
+			<table>
+				<tr>
+					<th class="unique-row" scope="col"> ספריות עירוניות</th>
+					<th class="unique-row" scope="col">22</th>	
+				</tr>
+				<tr>
+					<td>מספר קוראים פעילים</td>
+					<td>26,373</td>
+				</tr>	
+				<tr>
+					<td>ממוצע מספר השאלות חודשיות</td>
+					<td>34,090</td>
+				</tr>
+				<tr>
+					<td>מספר ספרים</td>
+					<td>897,900</td>
+				</tr>
+				<tr>
+					<th scope="col">ביקורים במוזיאונים המוכרים בעיר <span class="s-letters"> (אלפים)</span></th>
+					<th scope="col">1,471.9</th>	
+				</tr>
+				<tr>
+					<th class="unique-row" scope="col">ביקורים בתיאטרונים הגדולים <span class="s-letters"><br>(הקאמרי, הבימה, בית-ליסין, גשר ויידישפיל - אלפים)</span></th>
+					<th class="unique-row" scope="col">1,661.0</th>	
+				</tr>
+				<tr>
+					<th class="unique-row" scope="col">ביקורים בקולנוע מסחרי <span class="s-letters">(אלפים)</span></th>
+					<th class="unique-row" scope="col">817.3</th>	
+				</tr>
+				<tr>
+					<td>% מישראל</td>
+					<td>5.2%</td>
+				</tr>	
+					<th scope="col">משתתפים בחוגים במרכזי פעילות עירוניים<span class="s-letters"></th>
+					<th scope="col">92,625</th>	
+				</tr>
+				<tr>
+					<th class="unique-row" scope="col">מזה: משתתפים בחוגים במרכזים קהילתיים</span></th>
+					<th class="unique-row" scope="col">36,799</th>	
+				</tr>
+				<tr>
+					<td>לימוד</td>
+					<td>45.7%</td>
+				</tr>	
+				<tr>
+					<td>ספורט</td>
+					<td>25.8%</td>
+				</tr>
+				<tr>
+					<td>מחול</td>
+					<td>12.0%</td>
+				</tr>
+				<tr>
+					<td>חברתי</td>
+					<td>5.6%</td>
+				</tr>
+				<tr>
+					<td>מוסיקה</td>
+					<td>5.4%</td>
+				</tr>
+				<tr>
+					<td>יצירה</td>
+					<td>4.6%</td>
+				</tr>
+				<tr>
+					<td>דרמה</td>
+					<td>0.8%</td>
+				</tr>
+			</table>
+		</div>
+		<div id="links">
+			<h2 id="first-link">עיריית תל אביב</h2>
+			<a href="https://www.tel-aviv.gov.il/Pages/HomePage.aspx" target="_blank">tel-aviv.gov.il</a>
+			<p>אבן גבירול 69, ת"א</p>
+			<br><hr>
+			<h2>מוזיאון תל אביב</h2>
+			<a href="http://www.tamuseum.org.il/he/default.aspx" target="_blank">tamuseum.org.il</a>
+			<p>שדרות שאול המלך 27, ת"א</p>
+			<br><hr>
+			<h2>חופים מומלצים</h2>
+			<a href="http://www.mouse.co.il/kids/articles/1.3154390" target="_blank">כתבה בעכבר העיר</a>
+			<br>
+			<br><hr>
+			<h2>חיי לילה</h2>
+			<a href="https://www.atraf.co.il/events/" target="_blank">אטרף מסיבות</a>
+			<br>
+			<br><hr>
+		</div>
+		<div id="footer">
+			<ul>
+				<li><a href="http://www.accuweather.com/he/il/tel-aviv/215854/hourly-weather-forecast/215854" target="_blank">מזג אוויר בת"א</a></li>
+				<li><a href="https://www.agoda.com/he-il/city/tel-aviv-il.html?cid=-42" target="_blank">הזמנת מלונות</a></li>
+				<li><a href="http://www.rentalcars.com/he/city/il/tel-aviv/" target="_blank">השכרת רכב</a></li>
+				<li><a href="contact-us.html" target="_blank">צור קשר</a></li>
+			</ul>
+		</div>
+		-->
+	</body>
+	
+</html>
