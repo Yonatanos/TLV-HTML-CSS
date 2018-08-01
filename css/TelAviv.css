@@ -6,11 +6,13 @@ body {
 	line-height: 1.3em;
 	letter-spacing: 0;
 	background-color: seashell;
+	overflow-x: hidden;
+
 }
 
 .banner {
 	width: 1843px;
-	height: 90px;
+	height: 90pt;
 	display: block;
 	margin-right: 10px;
 	margin-bottom: 5px;
@@ -108,8 +110,9 @@ div#main img#imgmap { /* Avi Katz beautiful painting of Tel Aviv Map*/
 	margin: 30px auto 20px auto;
 }
 
-#credit {
-	text-align: center;
+div#main img {
+	 width: 320px;
+	 height: 213.5px;
 }
 
 div#links {
